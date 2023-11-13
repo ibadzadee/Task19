@@ -753,7 +753,7 @@ nav .nav .bi-list {
   padding-top: 10px;
   font-weight: 700;
 }
-#portfolio .portfolio-center .bottom .b-bottom .img:hover:after {
+#portfolio .portfolio-center .bottom .b-bottom .img::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -763,7 +763,11 @@ nav .nav .bi-list {
   left: 0;
   z-index: 1;
   border-radius: 20px;
-  opacity: 0.6;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+#portfolio .portfolio-center .bottom .b-bottom .img:hover::after {
+  opacity: 0.5;
 }
 #portfolio .portfolio-center .bottom .b-bottom .img img {
   width: 100%;
@@ -945,7 +949,7 @@ nav .nav .bi-list {
   width: 100%;
   position: relative;
 }
-#blog .blog-center .bottom .grid .img:hover:after {
+#blog .blog-center .bottom .grid .img::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -954,9 +958,12 @@ nav .nav .bi-list {
   top: 0;
   left: 0;
   z-index: 1;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  opacity: 0.6;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+#blog .blog-center .bottom .grid .img:hover::after {
+  opacity: 0.5;
 }
 #blog .blog-center .bottom .grid .img img {
   width: 100%;
@@ -979,6 +986,7 @@ nav .nav .bi-list {
 }
 #blog .blog-center .bottom .grid .text p:hover a {
   color: #ff6b00;
+  transition: all 1s ease;
 }
 #blog .blog-center .bottom .grid .text h5 {
   font-size: 16px;
@@ -1074,6 +1082,7 @@ nav .nav .bi-list {
 #contact .contact-center .bottom .left button:hover {
   background-color: #101010;
   transition: all 1s ease;
+  color: #ff6b00;
 }
 #contact .contact-center .bottom .right {
   width: 30%;
@@ -1109,6 +1118,7 @@ nav .nav .bi-list {
 }
 #contact .contact-center .bottom .right .divs .text p a:hover {
   color: #ff6b00;
+  transition: all 1s ease;
 }
 
 footer {
