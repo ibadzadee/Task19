@@ -389,6 +389,8 @@ nav {
             @include display;
             flex-direction: column;
             padding-bottom: 60px;
+            margin: 0 auto;
+
 
             .head {
                 @include display;
@@ -406,9 +408,11 @@ nav {
                 width: 100%;
                 @include display;
                 padding-top: 20px;
+                text-align: center;
 
                 h1 {
-                    font-size: 50px;
+                    width: 100%;
+                    font-size: 45px;
                     color: $black;
                     font-weight: 800;
                 }
@@ -1459,8 +1463,8 @@ footer {
             .right {
                 width: 100%;
                 padding: 0px 30px;
-                .back-img{
-                    width: 700px;
+                .back-img img{
+                    width: 70%;
                 }
 
                 .front-img {
@@ -1810,6 +1814,10 @@ footer {
             font-size: 40px;
         }
 
+    }
+    #contact .contact-center .bottom .right {
+        width: 100%;
+        padding-top: 50px;
     }
 
     #MyResume .MyResume-center .bottom {

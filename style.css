@@ -322,6 +322,7 @@ nav .nav .bi-list {
   align-items: center;
   flex-direction: column;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 #MyServices .MyServices-center .top .head {
   display: flex;
@@ -341,9 +342,11 @@ nav .nav .bi-list {
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  text-align: center;
 }
 #MyServices .MyServices-center .top .p-head h1 {
-  font-size: 50px;
+  width: 100%;
+  font-size: 45px;
   color: #101010;
   font-weight: 800;
 }
@@ -1256,8 +1259,8 @@ footer .footer-center .top .four .i-3 i {
     width: 100%;
     padding: 0px 30px;
   }
-  #banner .banner-center .right .back-img {
-    width: 700px;
+  #banner .banner-center .right .back-img img {
+    width: 70%;
   }
   #banner .banner-center .right .front-img img {
     width: 70%;
@@ -1500,6 +1503,10 @@ footer .footer-center .top .four .i-3 i {
     min-width: 50px;
     display: block;
     font-size: 40px;
+  }
+  #contact .contact-center .bottom .right {
+    width: 100%;
+    padding-top: 50px;
   }
   #MyResume .MyResume-center .bottom {
     display: flex;
