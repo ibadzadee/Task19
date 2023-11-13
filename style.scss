@@ -1318,7 +1318,9 @@ footer {
 
                 a {
                     &:hover {
-                        color: $orange
+                        color: $orange;
+                        transition: all 1s ease
+                        
                     }
                 }
 

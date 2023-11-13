@@ -1156,6 +1156,7 @@ footer .footer-center .top .display h3 {
 }
 footer .footer-center .top .display a:hover {
   color: #ff6b00;
+  transition: all 1s ease;
 }
 footer .footer-center .top .one {
   display: flex;
