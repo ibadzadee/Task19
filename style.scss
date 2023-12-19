@@ -1304,7 +1304,8 @@ footer {
             width: 100%;
             padding: 100px 0px;
             display: grid;
-            grid-template-columns: 1fr 2fr 2fr 4fr;
+            grid-template-columns: repeat(2 , auto);
+            gap: 100px;
 
             .display {
                 width: 100%;
@@ -1485,7 +1486,7 @@ footer {
             }
 
             .right {
-                width: 80%;
+                width: 100%;
                 padding: 30px 0px;
 
                 .p-head h1 {
@@ -1501,7 +1502,7 @@ footer {
 
     #MyServices {
         .MyServices-center .bottom {
-            width: 75%;
+            width: 100%;
             margin: 0 auto;
             grid-template-columns: repeat(2, auto);
             grid-template-rows: repeat(4, auto);
@@ -1643,7 +1644,7 @@ footer {
         }
 
         .right {
-            width: 80%;
+            width: 100%;
 
             .row-div {
                 width: 100%;
@@ -1698,7 +1699,7 @@ footer {
     }
 
     #portfolio .portfolio-center .bottom .b-bottom {
-        width: 90%;
+        width: 100%;
         gap: 20px;
 
         .img {
@@ -1870,13 +1871,7 @@ footer {
     }
 
     footer .footer-center .top {
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(3, auto);
-
-        .one {
-            grid-column-start: 1;
-            grid-column-end: 3;
-        }
+        grid-template-columns: repeat(1, auto);
     }
 }
 
